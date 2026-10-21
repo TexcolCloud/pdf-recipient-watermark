@@ -1,0 +1,28 @@
+# Local documents, recipient lists, credentials, and generated mail.
+local/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.[cC][sS][vV]
+!recipients.example.csv
+*.[pP][dD][fF]
+!examples/original/培训 资料.PDF
+!examples/recipient/培训 资料.PDF
+*.eml
+*.zip
+**/run.json
+**/.delivery.lock
+batch*/
+preview*/
+test_*/
+suspects/
+subject.txt
+body.txt
+credentials*.json
+tokens*.json
+secrets*.json
